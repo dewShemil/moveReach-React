@@ -8,7 +8,7 @@ import axios from "axios";
 const MovieContext = React.createContext();
 
 const initialState = {
-  type: "tv",
+  type: "movie",
   query: "",
   typing: "",
   page: 1,
