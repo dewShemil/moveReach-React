@@ -1,0 +1,57 @@
+.bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.movie-container {
+  position: relative;
+  min-height: 95vh;
+  padding: 2rem 0;
+}
+.box {
+  /* margin: 0 10%;*/
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  margin: 0;
+}
+h1 span,
+h3 {
+  font-weight: 200;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 0.2rem;
+  padding: 0.1rem;
+  color: #fff;
+}
+.poster-img {
+  width: 20rem;
+  min-height: 32rem;
+  margin: 2rem auto;
+  border-radius: 13px;
+  position: relative;
+}
+.vote-low {
+  background-color: #d82148;
+  color: #ececec;
+}
+.vote-high {
+  background-color: #00c897;
+  color: #151d3b;
+}
+.vote {
+  padding: 0.1rem 0.2rem;
+  border-radius: 5px;
+}

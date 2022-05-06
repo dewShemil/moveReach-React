@@ -1,0 +1,25 @@
+body {
+  background-color: #202731;
+  color: #fff;
+}
+
+.container {
+  /* position: relative; */
+  display: inline-block;
+  margin: 0 3%;
+  text-align: center;
+}
+
+.try {
+  min-height: 20rem;
+  min-width: 15rem;
+  background: #000;
+  border-radius: 2rem;
+  display: inline-block;
+  margin: 0.9rem 0;
+  position: relative;
+}
+
+a {
+  color: #fff;
+}

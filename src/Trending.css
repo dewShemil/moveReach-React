@@ -1,0 +1,18 @@
+.trending-h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* Layer Layer Waves */
+.spacer {
+  aspect-ratio: 960/100;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer1 {
+  background-image: url("./Assets/layered-waves-haikei.svg");
+}
